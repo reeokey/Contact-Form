@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    padding: 40px 15%;
+}
+
+.contact {
+    background: black;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-form h1 {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.contact-form p {
+    color: gray;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: rgb(48, 47, 47);
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: orange;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 225px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid orange;
+    color: white;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+.contact-img img {
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
